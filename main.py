@@ -118,7 +118,6 @@ while running:
 # Opponent moving up when ball is going up, same with down
     if ballY + ball_height_width > opponentY+bar_height and ballY_change >= 0:
         opponentY_change = speed - 1
-        if
     if ballY < opponentY and ballY_change <= 0:
         opponentY_change = -speed + 1
 
